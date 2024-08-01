@@ -5,7 +5,7 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/sass/app.scss',
+                'resources/sass/app.scss', // Certifique-se de que o caminho está correto
                 'resources/js/app.js',
             ],
             refresh: true,
